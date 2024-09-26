@@ -1,0 +1,26 @@
+{
+  "name": "get-package-info",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "build": "echo 'No build needed'",
+    "vercel-build": "echo 'No build needed'"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^119.0.2",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "puppeteer-core": "^23.4.1"
+  },
+  "keywords": [],
+  "author": "Jim Huang",
+  "license": "ISC",
+  "description": "",
+  "engines": {
+    "node": "18"
+  },
+  "devDependencies": {
+    "puppeteer": "^23.4.1"
+  }
+}
